@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azentra - Web & AI Solutions Startup</title>
+    <meta name="description" content="Azentra offers professional web development services, portfolio websites, and digital solutions for small businesses.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <h2>Azentra</h2>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#packages" class="nav-link">Packages</a>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home" class="page active">
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Transform Your Business with Professional Websites</h1>
+                        <p>Get Your Website Today with modern design, responsive layout, and powerful features that drive results.</p>
+                        <div class="hero-buttons">
+                            <button class="btn btn--primary btn--lg" onclick="scrollToSection('contact')">Get Your Website Today</button>
+                            <button class="btn btn--outline btn--lg" onclick="scrollToSection('packages')">View Packages</button>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="hero-card glass-card">
+                            <h3>✨ Modern Design</h3>
+                            <p>Beautiful, responsive websites</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services Snapshot -->
+        <div class="services-snapshot">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card glass-card">
+                        <div class="service-icon">🎨</div>
+                        <h3>Portfolio Websites</h3>
+                        <p>Showcase your work with professional portfolio sites</p>
+                    </div>
+                    <div class="service-card glass-card">
+                        <div class="service-icon">🏢</div>
+                        <h3>Small Business Websites</h3>
+                        <p>Complete business solutions with all essential features</p>
+                    </div>
+                    <div class="service-card glass-card">
+                        <div class="service-icon">📱</div>
+                        <h3>QR Code & Link Solutions</h3>
+                        <p>Custom QR codes and smart link management</p>
+                    </div>
+                    <div class="service-card glass-card">
+                        <div class="service-icon">🔧</div>
+                        <h3>Managed Updates</h3>
+                        <p>Regular updates and maintenance for your site</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Package Quick View -->
+        <div class="packages-quick">
+            <div class="container">
+                <h2>Choose Your Package</h2>
+                <div class="packages-grid">
+                    <div class="package-card glass-card">
+                        <h3>Starter</h3>
+                        <div class="price">From ₹1,999</div>
+                        <p>Perfect for individuals and small projects</p>
+                        <ul>
+                            <li>1-3 page website</li>
+                            <li>Mobile responsive</li>
+                            <li>Basic support</li>
+                        </ul>
+                    </div>
+                    <div class="package-card glass-card featured">
+                        <div class="popular-badge">Most Popular</div>
+                        <h3>Business</h3>
+                        <div class="price">₹8,000 - ₹12,000</div>
+                        <p>Ideal for growing businesses</p>
+                        <ul>
+                            <li>5-7 pages</li>
+                            <li>20 product uploads</li>
+                            <li>WhatsApp integration</li>
+                        </ul>
+                    </div>
+                    <div class="package-card glass-card">
+                        <h3>Pro</h3>
+                        <div class="price">₹15,000+</div>
+                        <p>Enterprise solutions with advanced features</p>
+                        <ul>
+                            <li>Ecommerce system</li>
+                            <li>Unlimited uploads</li>
+                            <li>3 months support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="testimonials">
+            <div class="container">
+                <h2>Why Choose Azentra</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card glass-card">
+                        <p>"Azentra transformed our small business with a professional website that truly represents our brand. The team was responsive and delivered exactly what we needed."</p>
+                        <div class="author">- Priya Sharma, Local Business Owner</div>
+                    </div>
+                    <div class="testimonial-card glass-card">
+                        <p>"The subscription model works perfectly for us. We get regular updates without worrying about additional costs. Highly recommended!"</p>
+                        <div class="author">- Rajesh Kumar, Freelance Photographer</div>
+                    </div>
+                    <div class="testimonial-card glass-card">
+                        <p>"Professional service, modern design, and excellent support. Azentra helped us establish a strong online presence."</p>
+                        <div class="author">- Sarah Ahmed, Creative Agency</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <div class="container">
+                <div class="cta-content glass-card">
+                    <h2>Ready to Get Started?</h2>
+                    <p>Let's build something amazing together</p>
+                    <div class="cta-buttons">
+                        <button class="btn btn--primary btn--lg" onclick="scrollToSection('contact')">Get Quote</button>
+                        <a href="https://wa.me/918740942286" target="_blank" class="btn btn--outline btn--lg">WhatsApp Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Page -->
+    <section id="services" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Our Services</h1>
+                <p>Comprehensive web solutions tailored to your needs</p>
+            </div>
+            
+            <div class="services-detailed">
+                <div class="service-item glass-card">
+                    <div class="service-icon">🎨</div>
+                    <div class="service-content">
+                        <h3>Portfolio Websites</h3>
+                        <p>Professional portfolio websites designed to showcase your work and attract clients</p>
+                        <ul class="feature-list">
+                            <li>Modern Design</li>
+                            <li>Mobile Responsive</li>
+                            <li>SEO Optimized</li>
+                            <li>Fast Loading</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-item glass-card">
+                    <div class="service-icon">🏢</div>
+                    <div class="service-content">
+                        <h3>Small Business Websites</h3>
+                        <p>Complete business websites with all essential pages and functionality</p>
+                        <ul class="feature-list">
+                            <li>Professional Layout</li>
+                            <li>Contact Forms</li>
+                            <li>Social Integration</li>
+                            <li>Analytics Ready</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-item glass-card">
+                    <div class="service-icon">📱</div>
+                    <div class="service-content">
+                        <h3>QR Code & Link Solutions</h3>
+                        <p>Custom QR codes and smart link management for enhanced digital marketing</p>
+                        <ul class="feature-list">
+                            <li>Custom QR Codes</li>
+                            <li>Link Analytics</li>
+                            <li>Brand Integration</li>
+                            <li>Mobile Optimized</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-item glass-card">
+                    <div class="service-icon">🔧</div>
+                    <div class="service-content">
+                        <h3>Managed Updates</h3>
+                        <p>Regular website updates and maintenance to keep your site fresh and current</p>
+                        <ul class="feature-list">
+                            <li>Content Updates</li>
+                            <li>Security Patches</li>
+                            <li>Performance Optimization</li>
+                            <li>24/7 Support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Page -->
+    <section id="packages" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Pricing Packages</h1>
+                <p>Choose the perfect plan for your business needs</p>
+            </div>
+
+            <!-- Starter Package -->
+            <div class="package-section">
+                <h2>Starter Package</h2>
+                <div class="starter-grid">
+                    <div class="package-card glass-card">
+                        <h3>Starter Basic</h3>
+                        <div class="price">₹2,999 <span>One-time</span></div>
+                        <ul class="package-features">
+                            <li>1-3 page website</li>
+                            <li>10 free updates in 1 year</li>
+                            <li>After that: ₹200 per update</li>
+                            <li>Basic support</li>
+                        </ul>
+                        <button class="btn btn--outline btn--full-width" onclick="scrollToSection('contact')">Choose Plan</button>
+                    </div>
+
+                    <div class="package-card glass-card featured">
+                        <div class="popular-badge">Recommended</div>
+                        <h3>Starter Subscription</h3>
+                        <div class="price">₹1,999 + ₹500/month</div>
+                        <ul class="package-features">
+                            <li>1-3 page website</li>
+                            <li>Weekly updates (max 4 per week)</li>
+                            <li>Continuous support throughout year</li>
+                            <li>Priority assistance</li>
+                        </ul>
+                        <button class="btn btn--primary btn--full-width" onclick="scrollToSection('contact')">Choose Plan</button>
+                    </div>
+
+                    <div class="package-card glass-card">
+                        <h3>Starter Premium</h3>
+                        <div class="price">₹4,999 <span>One-time</span></div>
+                        <ul class="package-features">
+                            <li>1-3 page website</li>
+                            <li>40 free updates in 1 year</li>
+                            <li>After that: ₹200/update</li>
+                            <li>Premium support</li>
+                        </ul>
+                        <button class="btn btn--outline btn--full-width" onclick="scrollToSection('contact')">Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Packages -->
+            <div class="other-packages">
+                <div class="package-card glass-card large">
+                    <h3>Business Package</h3>
+                    <div class="price">₹8,000 - ₹12,000</div>
+                    <ul class="package-features">
+                        <li>5-7 pages</li>
+                        <li>20 product/project uploads</li>
+                        <li>WhatsApp + Call buttons</li>
+                        <li>1 month free updates</li>
+                        <li>Business analytics</li>
+                    </ul>
+                    <button class="btn btn--primary btn--full-width" onclick="scrollToSection('contact')">Choose Plan</button>
+                </div>
+
+                <div class="package-card glass-card large">
+                    <h3>Pro Package</h3>
+                    <div class="price">₹15,000+</div>
+                    <ul class="package-features">
+                        <li>Ecommerce/Booking system</li>
+                        <li>Unlimited uploads (by team)</li>
+                        <li>Custom banners + QR stickers</li>
+                        <li>3 months support</li>
+                        <li>Advanced integrations</li>
+                    </ul>
+                    <button class="btn btn--primary btn--full-width" onclick="scrollToSection('contact')">Choose Plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Page -->
+    <section id="portfolio" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Our Portfolio</h1>
+                <p>See examples of our work and client success stories</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item glass-card">
+    <div class="portfolio-image">
+        <img src="https://res.cloudinary.com/dadjouvur/image/upload/v1757937223/Screenshot_2025-09-15_172150_s3vc7v.png" alt="Shree Shyam Furniture Website Screenshot">
+    </div>
+    <div class="portfolio-content">
+        <h3>Shree Shyam Furniture</h3>
+        <p>A digital catalog website for a local furniture business, featuring a product carousel, search, and galleries.</p>
+        <div class="portfolio-tags">
+            <span class="tag">Business</span>
+            <span class="tag">Catalog</span>
+            <span class="tag">JavaScript</span>
+        </div>
+        <a href="https://iammrbbd.github.io/Shree-Shyam-Furniture/" target="_blank" class="btn btn--outline btn--sm">View Live</a>
+    </div>
+</div>
+
+                <div class="portfolio-item glass-card">
+                    <div class="portfolio-image">
+                        <div class="placeholder-img">Business Website</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Local Restaurant Website</h3>
+                        <p>Complete business website with menu display, online booking, and customer reviews integration.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Business</span>
+                            <span class="tag">Restaurant</span>
+                        </div>
+                        <button class="btn btn--outline btn--sm">View Live</button>
+                    </div>
+                </div>
+
+                <div class="portfolio-item glass-card">
+                    <div class="portfolio-image">
+                        <div class="placeholder-img">E-commerce Store</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Fashion E-commerce Store</h3>
+                        <p>Modern e-commerce website with product catalog, shopping cart, and secure payment integration.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">E-commerce</span>
+                            <span class="tag">Fashion</span>
+                        </div>
+                        <button class="btn btn--outline btn--sm">View Live</button>
+                    </div>
+                </div>
+
+                <div class="portfolio-item glass-card">
+                    <div class="portfolio-image">
+                        <div class="placeholder-img">Agency Website</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Digital Marketing Agency</h3>
+                        <p>Professional agency website with service pages, case studies, and client testimonials.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Agency</span>
+                            <span class="tag">Marketing</span>
+                        </div>
+                        <button class="btn btn--outline btn--sm">View Live</button>
+                    </div>
+                </div>
+
+                <div class="portfolio-item glass-card">
+                    <div class="portfolio-image">
+                        <div class="placeholder-img">Tech Startup</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Tech Startup Landing Page</h3>
+                        <p>Modern landing page for a tech startup with feature highlights and investor information.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Startup</span>
+                            <span class="tag">Tech</span>
+                        </div>
+                        <button class="btn btn--outline btn--sm">View Live</button>
+                    </div>
+                </div>
+
+                <div class="portfolio-item glass-card">
+                    <div class="portfolio-image">
+                        <div class="placeholder-img">Personal Blog</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Personal Travel Blog</h3>
+                        <p>Beautiful blog website with travel stories, photo galleries, and social media integration.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Blog</span>
+                            <span class="tag">Travel</span>
+                        </div>
+                        <button class="btn btn--outline btn--sm">View Live</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Page -->
+    <section id="about" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h1>About Azentra</h1>
+                <p>Learn about our vision, mission, and future plans</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-section glass-card">
+                    <h2>Our Vision</h2>
+                    <p>To empower small businesses and professionals with cutting-edge web solutions that drive growth and success.</p>
+                </div>
+
+                <div class="about-section glass-card">
+                    <h2>Our Mission</h2>
+                    <p>Providing affordable, high-quality websites and digital solutions that help businesses thrive in the digital age.</p>
+                </div>
+
+                <div class="about-section glass-card">
+                    <h2>Phase 2 - Future Plans</h2>
+                    <p>In Phase 2 (1-1.5 years), we will integrate AI, Machine Learning, and automation solutions to further enhance our clients' digital capabilities. This expansion will include intelligent chatbots, automated content generation, and advanced analytics tools.</p>
+                </div>
+
+                <div class="founder-section glass-card">
+                    <h2>Meet Our Founder</h2>
+                    <div class="founder-content">
+                        <div class="founder-image">
+                            <div class="placeholder-avatar">RJ</div>
+                        </div>
+                        <div class="founder-text">
+                            <h3>Rohit Jangir</h3>
+                            <p class="founder-title">Founder & Developer</p>
+                            <p>Passionate about creating digital solutions that make a difference for small businesses and entrepreneurs. With years of experience in web development and a vision for the future of digital business solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Get In Touch</h1>
+                <p>Ready to start your project? Let's discuss your requirements</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-form-section">
+                    <div class="contact-form glass-card">
+                        <h3>Send us a message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="package" class="form-label">Package Interest</label>
+                                <select id="package" class="form-control">
+                                    <option value="">Select a package</option>
+                                    <option value="starter-basic">Starter Basic</option>
+                                    <option value="starter-subscription">Starter Subscription</option>
+                                    <option value="starter-premium">Starter Premium</option>
+                                    <option value="business">Business Package</option>
+                                    <option value="pro">Pro Package</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" class="form-control" rows="4" placeholder="Tell us about your project requirements..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="contact-info-section">
+                    <div class="contact-info glass-card">
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <a href="mailto:rohitjangirghatwa@gmail.com">rohitjangirghatwa@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Phone:</strong>
+                            <a href="tel:+918740942286">+91 8740942286</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Instagram:</strong>
+                            <a href="https://instagram.com/mr.bbd_" target="_blank">@mr.bbd_</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-buttons">
+                        <a href="https://wa.me/918740942286?text=Hi, I'm interested in your web development services" target="_blank" class="btn btn--primary btn--full-width">
+                            📱 WhatsApp Us
+                        </a>
+                        <a href="tel:+918740942286" class="btn btn--outline btn--full-width">
+                            📞 Call Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Azentra</h3>
+                    <p>Web & AI Solutions Startup</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Portfolio Websites</a></li>
+                        <li><a href="#services">Business Websites</a></li>
+                        <li><a href="#services">QR Solutions</a></li>
+                        <li><a href="#services">Managed Updates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Packages</h4>
+                    <ul>
+                        <li><a href="#packages">Starter Package</a></li>
+                        <li><a href="#packages">Business Package</a></li>
+                        <li><a href="#packages">Pro Package</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: rohitjangirghatwa@gmail.com</p>
+                    <p>Phone: +91 8740942286</p>
+                    <p>Instagram: @mr.bbd_</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Azentra. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
